@@ -2,13 +2,10 @@ import React from 'react'
 
 class Pet extends React.Component {
 
-<<<<<<< HEAD
   handleAdoptClick = (event) => {
       this.props.onAdoptPet(this.props.pet.id)
   }
 
-=======
->>>>>>> 01f17c950b306619a0bde53116aedd673949a665
   render() {
     let adoptButton
 
