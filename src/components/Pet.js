@@ -2,10 +2,13 @@ import React from 'react'
 
 class Pet extends React.Component {
 
+<<<<<<< HEAD
   handleAdoptClick = (event) => {
       this.props.onAdoptPet(this.props.pet.id)
   }
 
+=======
+>>>>>>> 01f17c950b306619a0bde53116aedd673949a665
   render() {
     let adoptButton
 
@@ -31,7 +34,15 @@ class Pet extends React.Component {
           </div>
         </div>
         <div className="extra content">
+<<<<<<< HEAD
           {adoptButton}
+=======
+          {if(this.props.isAdopted){
+            button = <button className="ui disabled button">Already adopted</button>
+          } else {
+            button = <button className="ui primary button">Adopt pet</button>
+          }}
+>>>>>>> 01f17c950b306619a0bde53116aedd673949a665
         </div>
       </div>
     )

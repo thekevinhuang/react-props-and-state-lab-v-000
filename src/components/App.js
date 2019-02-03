@@ -35,6 +35,7 @@ class App extends React.Component {
     fetch(url)
   }
 
+<<<<<<< HEAD
   onAdoptPet = (id) => {
     this.setState({
       pets: this.state.pets.map((pet, index) => {
@@ -46,6 +47,8 @@ class App extends React.Component {
     })
   }
 
+=======
+>>>>>>> 01f17c950b306619a0bde53116aedd673949a665
   render() {
     return (
       <div className="ui container">
